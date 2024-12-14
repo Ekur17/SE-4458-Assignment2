@@ -31,15 +31,21 @@ compensation_queue for handling failed payments.
 
 ### Installation & Run
 
--Install Node.js 
+-Install Node.js
+
 -Install and configure RabbitMQ.
+
 -Set up an SMTP server (in this case, Gmail SMTP).
 
 
 ### Your .env file
+
 SMTP_HOST=smtp.gmail.com
+
 SMTP_PORT=465
+
 SMTP_USER=youremail@gmail.com
+
 SMTP_PASS=yourpassword
 
 
