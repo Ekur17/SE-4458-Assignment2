@@ -10,7 +10,9 @@ The goal is to manage and process payment workflows and notify users about the s
 The project uses RabbitMQ to manage three queues:
 
 payment_queue for processing payment transactions.
+
 notification_queue for sending email notifications.
+
 compensation_queue for handling failed payments.
 
 ### Technical Stacks
@@ -47,6 +49,8 @@ SMTP_PORT=465
 SMTP_USER=youremail@gmail.com
 
 SMTP_PASS=yourpassword
+
+
 
 
 Start each service in separate terminals:
