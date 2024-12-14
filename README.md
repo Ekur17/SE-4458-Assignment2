@@ -51,8 +51,6 @@ SMTP_USER=youremail@gmail.com
 SMTP_PASS=yourpassword
 
 
-
-
 Start each service in separate terminals:
 
 # Start Payment Service
